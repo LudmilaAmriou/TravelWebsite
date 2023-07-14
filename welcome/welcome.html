@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Home page
+	</title>
+	<link rel="stylesheet" href="welcome.css">
+	
+	<!-- Add Font Awesome CDN -->
+	<script src="https://kit.fontawesome.com/277a60d7f6.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body id ="body">
+	
+	<h1>Where Dreams Meet Destinations!</h1>
+	<!-- Container for the button and parameter buttons -->
+	<div class="container">
+		<!-- Gray vertical rectangle -->
+		<div class="sidebar">
+			
+			<div class="buttons">
+			<button class="button">
+				Reviews and ratings
+				<i class="fas fa-sign-out-alt button-icon"></i>
+			</button>
+			
+			<button class="button">
+				Direct messages
+				<i class="fas fa-sign-out-alt button-icon"></i>
+			</button>
+			<button class="button">
+				About us
+				<i class="fas fa-sign-out-alt button-icon"></i>
+			</button>
+			</div>
+			<div class = "parameter-buttons">
+			<button class="parameter-button">
+				<i class="fas fa-cog parameter-icon">
+					Parameters
+				</i>
+			</button>
+			<button onclick="logout()" class="parameter-button">
+				Logout
+				<i class="fas fa-sign-out-alt button-icon"></i>
+			</button>
+		</div></div>
+		
+	<br><br>
+	<div class="cards">
+  
+		<!-- Carte A -->
+		<a href="#" class="card">
+		  <div class="card-background" style="background-image: url(https://images.unsplash.com/photo-1610375233612-d6a66ac3af99?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1047&q=80)"></div>
+		  <div class="card-content">
+			<p>Travel</p>
+			<h3>Japan</h3>
+		  </div>
+		</a>
+		
+		<!-- Carte B -->
+		<a href="#" class="card">
+		  <div class="card-background" style="background-image: url(https://images.unsplash.com/photo-1593971657261-184f7a3a72de?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80)"></div>
+		  <div class="card-content">
+			<p>Travel</p>
+			<h3>United States</h3>
+		  </div>
+		</a>
+		
+		<!-- Carte C -->
+		<a href="#" class="card">
+		  <div class="card-background" style="background-image: url(https://images.unsplash.com/photo-1532465614-6cc8d45f647f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80)"></div>
+		  <div class="card-content">
+			<p>Travel</p>
+			<h3>France</h3>
+		  </div>
+		</a>
+		
+		<!-- Carte D -->
+		<a href="#" class="card">
+		  <div class="card-background" style="background-image: url(https://images.unsplash.com/photo-1502003148287-a82ef80a6abc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80)"></div>
+		  <div class="card-content">
+			<p>Travel</p>
+			<h3>Canada</h3>
+		  </div>
+		</a>
+
+		<!-- Carte E -->
+		<a href="#" class="card">
+			<div class="card-background" style="background-image: url(https://images.unsplash.com/photo-1516483638261-f4dbaf036963?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=686&q=80)"></div>
+			<div class="card-content">
+			  <p>Travel</p>
+			  <h3>Italy</h3>
+			</div>
+		  </a>
+		
+		  <!-- Carte F -->
+		<a href="#" class="card">
+			<div class="card-background" style="background-image: url(https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80)"></div>
+			<div class="card-content">
+			  <p>Travel</p>
+			  <h3>Greece</h3>
+			</div>
+		  </a>
+
+		 
+		   <!-- Carte F -->
+		<a href="#" class="card">
+			<div class="card-background" style="background-image: url(https://images.unsplash.com/photo-1530841344029-ec3ae0fa4cc4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80://images.unsplash.com/photo-1533104816931-20fa691ff6ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80)"></div>
+			<div class="card-content">
+			  <p>Travel</p>
+			  <h3>Switzerland</h3>
+			</div>
+		  </a>
+
+		    <!-- Carte G -->
+		<a href="#" class="card">
+			<div class="card-background" style="background-image: url( https://images.unsplash.com/photo-1604107050756-b5ac1578b0b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=736&q=80://images.unsplash.com/photo-1530841344029-ec3ae0fa4cc4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80://images.unsplash.com/photo-1533104816931-20fa691ff6ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80)"></div>
+			<div class="card-content">
+			  <p>Travel</p>
+			  <h3>Algeria</h3>
+			</div>
+		  </a>
+
+	  </div>
+	  
+	<script src="welcome.js"></script>
+	
+</body>
+
+
+
+</html>
